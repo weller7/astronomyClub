@@ -1,0 +1,92 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+img{
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 400px;
+  height: auto;}
+
+iframe{
+  display: block;
+  margin: 0 auto;
+}
+
+.hidden{
+  display: none;
+}
+
+.container{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+h1,h2{
+  color: white;
+  font-family: 'Carlito', sans-serif;
+
+}
+h2{
+  text-align: center;
+  font-size: 1.4rem;
+
+}
+h3,p{
+  color: white;
+  font-size: 1rem;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+body{
+
+  padding: 30px;
+  background-color: #151c26;
+  background-image: linear-gradient(43deg, #151c26 0%, #1b2c5c 46%, #222eb0 100%);
+  min-height: 100vh;
+
+}
+
+button,input{
+  box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:linear-gradient(to bottom, #ededed 5%, #dfdfdf 100%);
+	background-color:#ededed;
+	border-radius:10px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#777777;
+	font-family:Arial;
+	font-size:16px;
+	font-weight:bold;
+	padding:8px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+  
+}
+
+.back{
+  background-image: url("../img/moon.avif"); 
+  text-align: center;
+  color: white;
+  
+}
+
+.image{
+  height: 50%;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
