@@ -1,4 +1,4 @@
-# astronomyClub
+# Astronomy Club
 Web app with NASA's API integration that shows a different picture and an explanation every day.
 
 **Link to project:** http://https://astronomyclub.netlify.app/
